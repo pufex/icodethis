@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="progressbars">
+        <h1 class="main-header">Progressbars with Simulation!</h1>
+        <h2 class="progress-header">72%</h2>
+        <p class="disclaimer">
+            <span>
+                (disclaimer)
+            </span>
+            <span>
+                If you resize the viewport while the last progressbar's animation is in progress,
+                it might become bugged.
+            </span>
+            <span>
+                Also, please refrain from activating both animation at the same time.
+            </span>
+        </p>
+        <p class="progress-desc">
+            Please wait while the page is loading!
+        </p>
+        <div class="progressbar--primary progressbar-1" role="progressbar">
+            <div class="fill"></div>
+        </div>
+        <div class="progressbar--primary progressbar-2" role="progressbar">
+            <div class="fill">
+                <div class="progressbar-bubble">
+                    72%
+                </div>
+            </div>
+        </div>
+        <div class="progressbar--primary progressbar-3" role="progressbar">
+            <div class="above-fill">
+                <h3 class="rate">
+                    Rate
+                </h3>
+                <h3 class="progress"> 
+                    73%
+                </h3>
+            </div>
+            <div class="fill"></div>
+        </div>
+        <button class="btn btn--primary three">
+            Simulate their progress!
+        </button>
+        
+        <div class="progressbar--goals progressbar-4" role="progressbar-goals">
+            <div class="fill"></div>
+            <div class="goals">
+                <div class="goal" id="goal-0">
+                    <div class="goal-content">
+                        <div class="goal-title">
+                            Step 3
+                        </div>
+                        <div class="goal-desc">
+                            Verification
+                        </div>
+                    </div>
+                </div>
+                <div class="goal" id="goal-1">
+                    <div class="goal-content">
+                        <div class="goal-title">
+                            Step 3
+                        </div>
+                        <div class="goal-desc">
+                            Verification
+                        </div>
+                    </div>
+                </div>
+                <div class="goal " id="goal-2">
+                    <div class="goal-content">
+                        <div class="goal-title">
+                            Step 3
+                        </div>
+                        <div class="goal-desc">
+                            Verification
+                        </div>
+                    </div>
+                </div>
+                <div class="goal" id="goal-3">
+                    <div class="goal-content">
+                        <div class="goal-title">
+                            Step 3
+                        </div>
+                        <div class="goal-desc">
+                            Verification
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <button class="btn btn--primary final">
+            Simulate its progress!
+        </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
